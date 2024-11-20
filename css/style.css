@@ -1,0 +1,106 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #cc0000;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Link styling */
+  a {
+    color: #00e6ac;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Horizontal rule styling */
+  hr {
+    border: none;
+    height: 4px;
+    background-color: #00e6ac;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  hr.large {
+    height: 10px;
+  }
+  
+  /* Content paragraphs */
+  p {
+    font-size: 1em;
+    padding: 0 10%;
+    margin: 20px 0;
+  }
+  
+  /* List styling */
+  ol, ul {
+    list-style-position: inside;
+    text-align: left;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+  }
+  
+  li {
+    padding: 8px 0;
+  }
+  
+  /* Table styling */
+  table {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  table, th, td {
+    border: 2px solid #00e6ac;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #333333;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #222222;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #1a1a1a;
+  }
+  
+  /* Footer and copyright */
+  footer {
+    padding: 20px 0;
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: #111111;
+  }
+  
